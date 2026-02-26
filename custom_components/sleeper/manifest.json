@@ -6,6 +6,7 @@
   "documentation": "https://docs.sleeper.com/",
   "homeassistant": "2024.8.0",
   "integration_type": "service",
+  "issue_tracker": "https://github.com/leoherzog/home-assistant-sleeper/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
   "version": "1.0.0"
