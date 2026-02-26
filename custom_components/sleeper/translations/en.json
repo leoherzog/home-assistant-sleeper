@@ -1,0 +1,58 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sleeper Fantasy Football",
+        "description": "Enter your Sleeper league ID and optionally your username for personalized sensors.",
+        "data": {
+          "league_id": "League ID",
+          "username": "Username (optional)"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure Sleeper",
+        "data": {
+          "username": "Username (optional)"
+        }
+      }
+    },
+    "error": {
+      "league_not_found": "League not found. Check the league ID.",
+      "user_not_found": "User not found. Check the username.",
+      "user_not_in_league": "User is not a member of this league.",
+      "cannot_connect": "Unable to connect to Sleeper API."
+    },
+    "abort": {
+      "already_configured": "This league is already configured.",
+      "reconfigure_successful": "Reconfiguration successful."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "roster_record": {
+        "name": "{display_name} Record"
+      },
+      "league_status": {
+        "name": "League Status"
+      },
+      "nfl_week": {
+        "name": "NFL Week"
+      },
+      "my_record": {
+        "name": "My Record"
+      },
+      "my_points": {
+        "name": "My Points"
+      },
+      "my_matchup": {
+        "name": "My Matchup"
+      },
+      "my_standing": {
+        "name": "My Standing"
+      },
+      "last_updated": {
+        "name": "Last Updated"
+      }
+    }
+  }
+}
